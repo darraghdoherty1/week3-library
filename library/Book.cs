@@ -10,15 +10,13 @@ namespace library
         string Author;
         string ISBN;
 
-        //public void DisplayInfo()
-
         public Book(string bookTitle, string bookAuthor, string bookISBN)
         {
             this.Title = bookTitle;
             this.Author = bookAuthor;
             this.ISBN = bookISBN;
         }
-        void DisplayInfo()
+        public void DisplayInfo()
         {
             Console.WriteLine($"Book title: {Title}");
             Console.WriteLine($"Book author: {Author}");
